@@ -3,7 +3,7 @@ Summary:	This is the Winter theme for E17
 Name:		enlightenment-theme-%{_theme}
 Version:	2006.07.02
 Release:	1
-License:	BSD
+License:	Creative Commons
 Group:		Themes
 Source0:	http://www.rephorm.com/files/winter/%{_theme}-e17.edj
 # Source0-md5:	54aca01ef02cab2888c703fb2aea67cc
