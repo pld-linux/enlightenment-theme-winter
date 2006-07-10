@@ -1,5 +1,6 @@
 %define	_theme	winter
 Summary:	This is the Winter theme for E17
+Summary(pl):	Motyw Winter dla E17
 Name:		enlightenment-theme-%{_theme}
 Version:	2006.07.02
 Release:	1
@@ -15,6 +16,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Winter theme is the default theme for Enlightenment DR16.7. This is
 the Winter theme for E17.
+
+%description -l pl
+Motyw Winter to domy¶lny motyw dla Enlightenmenta DR16.7. Ten pakiet
+zawiera motyw Winter dla E17.
 
 %prep
 
