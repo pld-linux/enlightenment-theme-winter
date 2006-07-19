@@ -9,7 +9,7 @@ Group:		Themes
 Source0:	http://www.rephorm.com/files/winter/%{_theme}-e17.edj
 # Source0-md5:	54aca01ef02cab2888c703fb2aea67cc
 URL:		http://www.rephorm.com/files/winter/
-Requires:	enlightenmentDR17
+Requires:	enlightenment
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -25,13 +25,13 @@ zawiera motyw Winter dla E17.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_datadir}/enlightenmentDR17/data/themes
+install -d $RPM_BUILD_ROOT%{_datadir}/enlightenment/data/themes
 
-install %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/enlightenmentDR17/data/themes/%{_theme}.edj
+install %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/enlightenment/data/themes/%{_theme}.edj
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{_datadir}/enlightenmentDR17/data/themes/%{_theme}.edj
+%{_datadir}/enlightenment/data/themes/%{_theme}.edj
