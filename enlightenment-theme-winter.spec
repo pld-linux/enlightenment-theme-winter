@@ -1,6 +1,6 @@
 %define	_theme	winter
 Summary:	This is the Winter theme for E17
-Summary(pl.UTF-8):   Motyw Winter dla E17
+Summary(pl.UTF-8):	Motyw Winter dla E17
 Name:		enlightenment-theme-%{_theme}
 Version:	2006.07.02
 Release:	1
